@@ -39,7 +39,7 @@ async def help_message_f(client, message):
     # display the /help message
     await message.reply_text(
         f"Hey there!/n Use the following commands/n /leech (as a reply to a magnet/torrent/direct link/n /ytdl (youtube link)/n Thank you for using me😊",
-        quote=True
+        quote=False
     )
 
 
